@@ -16,9 +16,9 @@ const Page = () => {
     setLoading(false);
   };
 
-  useEffect(() => {
-    fetchUsers();
-  }, []);
+//   useEffect(() => {
+//     fetchUsers();
+//   }, []);
 
   // Handle Edit Click
   const handleEditClick = (user) => {
